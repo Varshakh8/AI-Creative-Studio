@@ -52,7 +52,6 @@ AI-Creative-Studio/
 ### 🧠 Backend Setup
 
 1. Go inside the backend folder:
-```bash
 cd backend
 Create a .env file from the example:
 
