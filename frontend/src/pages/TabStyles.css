@@ -1,0 +1,49 @@
+.tab-card {
+  background: rgba(234, 229, 229, 0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 30px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  color: #0f0f0f;
+  background-color: rgb(238, 218, 194);
+}
+
+.tab-card h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.tab-card textarea {
+  width: 90%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  margin-bottom: 15px;
+  resize: none;
+}
+
+.tab-card button {
+  padding: 12px 25px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tab-card button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 81, 47, 0.6);
+}
+
+.tab-result {
+  margin-top: 20px;
+}

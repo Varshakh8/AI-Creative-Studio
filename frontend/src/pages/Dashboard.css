@@ -1,0 +1,28 @@
+/* Full page background */
+.dashboard {
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  background-image: url("./premium_photo-1664303224516-7998b41483de.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Content below navbar */
+.dashboard-content {
+  padding: 32px;
+}
+
+/* Glass container for tabs */
+.dashboard-content > * {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  padding: 24px;
+  min-height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
