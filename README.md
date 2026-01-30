@@ -34,7 +34,7 @@ AI-Creative-Studio/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer     | Technology             |
 |----------|-----------------------|
@@ -95,7 +95,7 @@ API_KEY = os.getenv("OPENAI_API_KEY")
 
 * This workflow powers creative outcomes with simple user interaction.
 
-### 🤝 Contributing
+###  Contributing
 * Contributions are welcome! Feel free to open issues or make pull requests.
 
 * Fork the repository
@@ -106,5 +106,5 @@ API_KEY = os.getenv("OPENAI_API_KEY")
 
 * Submit a pull request
 
-### 📫 Contact
+###  Contact
 Created by Varshakh8 — reach out for collabs, questions, or feature ideas 😄
