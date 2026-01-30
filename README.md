@@ -1,25 +1,23 @@
-# AI Creative Studio 🎨🎶✍️
-
-![AI Creative Studio](assets/logo.png)
+# AI Creative Studio 
 
 AI Creative Studio is a full-stack project that enables users to generate **art, music, and poetry** using advanced AI models. It integrates a backend API (handling AI model calls) with a responsive frontend interface where users can interactively create and explore AI-powered creative content.
 
 ---
 
-## 🚀 Live Features
+##  Live Features
 
-🎨 **AI Art Generation**  
+ **AI Art Generation**  
 Generate creative images from text prompts, transforming ideas into visual art using powerful AI models.
 
-🎶 **AI Music Creation**  
+ **AI Music Creation**  
 Compose original AI-driven music based on user inputs — moods, genres, and creative direction.
 
-✍️ **AI Poetry & Creative Text**  
+ **AI Poetry & Creative Text**  
 Generate expressive poetry and creative writing with AI language models.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 AI-Creative-Studio/
 ├── backend/ # Backend server & API
@@ -47,9 +45,9 @@ AI-Creative-Studio/
 
 ---
 
-## 🧩 Getting Started
+##  Getting Started
 
-### 🧠 Backend Setup
+###  Backend Setup
 
 1. Go inside the backend folder:
    cd backend
@@ -61,9 +59,7 @@ AI-Creative-Studio/
 4. Run the backend server:
    uvicorn app.main:app --reload
 
-# OR
-python main.py
-### 💻 Frontend Setup
+###  Frontend Setup
 1. Go inside the frontend folder:
    cd frontend
 
@@ -73,7 +69,7 @@ python main.py
 3. Start the frontend:
    npm start
 
-### 🔐 Environment Variables
+###  Environment Variables
 You must set up your API keys in a .env file — do NOT commit real keys to GitHub.
 
 Example (backend/.env):
@@ -84,31 +80,31 @@ Access them in your code like:
 
 import os
 API_KEY = os.getenv("OPENAI_API_KEY")
-### 📸 Demo / Screenshots
+###  Demo / Screenshots
 
-### 🧠 How It Works (High Level)
-User enters a prompt on the frontend
+###  How It Works (High Level)
+* User enters a prompt on the frontend
 
-Frontend sends request to the backend
+* Frontend sends request to the backend
 
-Backend calls AI model API
+* Backend calls AI model API
 
-AI generates art, music, or poetry
+* AI generates art, music, or poetry
 
-Response is sent back and displayed in the UI
+* Response is sent back and displayed in the UI
 
-This workflow powers creative outcomes with simple user interaction.
+* This workflow powers creative outcomes with simple user interaction.
 
 ### 🤝 Contributing
-Contributions are welcome! Feel free to open issues or make pull requests.
+* Contributions are welcome! Feel free to open issues or make pull requests.
 
-Fork the repository
+* Fork the repository
 
-Create a new branch
+* Create a new branch
 
-Make your changes
+* Make your changes
 
-Submit a pull request
+* Submit a pull request
 
 ### 📫 Contact
 Created by Varshakh8 — reach out for collabs, questions, or feature ideas 😄
