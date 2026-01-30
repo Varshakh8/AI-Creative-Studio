@@ -38,12 +38,12 @@ AI-Creative-Studio/
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| Frontend | React |
-| Backend | Python / FastAPI / Flask |
-| AI Models | OpenAI / Hugging Face|
-| Deployment | GitHub |
+| Layer     | Technology             |
+|----------|-----------------------|
+| Frontend | React                 |
+| Backend  | Python / FastAPI / Flask |
+| AI Models | OpenAI / Hugging Face |
+| Deployment | GitHub               |
 
 ---
 
@@ -51,50 +51,53 @@ AI-Creative-Studio/
 
 ### 🧠 Backend Setup
 
-1. **Go inside the backend folder**
+1. Go inside the backend folder:
 ```bash
 cd backend
-Create a .env file from the example
+Create a .env file from the example:
 
 cp .env.example .env
-Install dependencies
+Install dependencies:
 
-Run the server
+pip install -r requirements.txt
+Run the backend server:
+
 uvicorn app.main:app --reload
-
+# OR
 python main.py
-### 💻 **Frontend Setup**
-**Go to frontend
-**
+💻 Frontend Setup
+Go inside the frontend folder:
+
 cd frontend
-Install dependencies
+Install dependencies:
 
 npm install
-Start the UI
+Start the frontend:
 
 npm start
-**🔐 Environment Variables
-****You must set up your keys in a .env file — do NOT commit real keys to GitHub.
-Example (backend/.env):**
+🔐 Environment Variables
+You must set up your API keys in a .env file — do NOT commit real keys to GitHub.
+
+Example (backend/.env):
 
 OPENAI_API_KEY=your_openai_key_here
 HUGGINGFACE_TOKEN=your_huggingface_token_here
-Your code should read them like:
+Access them in your code like:
 
 import os
 API_KEY = os.getenv("OPENAI_API_KEY")
 📸 Demo / Screenshots
 Add images or GIF demo to help users understand the project:
 
-### 🎥 **Demo**
+### 🎥 Demo
 
 ![Art Generation](assets/demo-art.gif)
 ![Music Generation](assets/demo-music.gif)
 ![Poetry Generation](assets/demo-poetry.gif)
-Just place these files in the assets/ folder.
+(Place these files in the assets/ folder)
 
-**🧠 How It Works (High Level)
-**User enters a prompt on the frontend
+🧠 How It Works (High Level)
+User enters a prompt on the frontend
 
 Frontend sends request to the backend
 
@@ -106,7 +109,7 @@ Response is sent back and displayed in the UI
 
 This workflow powers creative outcomes with simple user interaction.
 
-🤝 **Contributing**
+🤝 Contributing
 Contributions are welcome! Feel free to open issues or make pull requests.
 
 Fork the repository
@@ -117,5 +120,5 @@ Make your changes
 
 Submit a pull request
 
-📫 **Contact**
+📫 Contact
 Created by Varshakh8 — reach out for collabs, questions, or feature ideas 😄
