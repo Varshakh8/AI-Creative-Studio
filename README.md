@@ -52,29 +52,28 @@ AI-Creative-Studio/
 ### 🧠 Backend Setup
 
 1. Go inside the backend folder:
-cd backend
-Create a .env file from the example:
+   cd backend
+2. Create a .env file from the example:
+   cp .env.example .env
 
-cp .env.example .env
-Install dependencies:
+3. Install dependencies
 
-pip install -r requirements.txt
-Run the backend server:
+4. Run the backend server:
+   uvicorn app.main:app --reload
 
-uvicorn app.main:app --reload
 # OR
 python main.py
-💻 Frontend Setup
-Go inside the frontend folder:
+### 💻 Frontend Setup
+1. Go inside the frontend folder:
+   cd frontend
 
-cd frontend
-Install dependencies:
+2. Install dependencies:
+   npm install
+   
+3. Start the frontend:
+   npm start
 
-npm install
-Start the frontend:
-
-npm start
-🔐 Environment Variables
+### 🔐 Environment Variables
 You must set up your API keys in a .env file — do NOT commit real keys to GitHub.
 
 Example (backend/.env):
@@ -85,17 +84,9 @@ Access them in your code like:
 
 import os
 API_KEY = os.getenv("OPENAI_API_KEY")
-📸 Demo / Screenshots
-Add images or GIF demo to help users understand the project:
+### 📸 Demo / Screenshots
 
-### 🎥 Demo
-
-![Art Generation](assets/demo-art.gif)
-![Music Generation](assets/demo-music.gif)
-![Poetry Generation](assets/demo-poetry.gif)
-(Place these files in the assets/ folder)
-
-🧠 How It Works (High Level)
+### 🧠 How It Works (High Level)
 User enters a prompt on the frontend
 
 Frontend sends request to the backend
@@ -108,7 +99,7 @@ Response is sent back and displayed in the UI
 
 This workflow powers creative outcomes with simple user interaction.
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome! Feel free to open issues or make pull requests.
 
 Fork the repository
@@ -119,5 +110,5 @@ Make your changes
 
 Submit a pull request
 
-📫 Contact
+### 📫 Contact
 Created by Varshakh8 — reach out for collabs, questions, or feature ideas 😄
